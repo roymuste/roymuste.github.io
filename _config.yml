@@ -26,6 +26,7 @@ github_username:  roymuste
 markdown: kramdown
 theme: minima
 # theme: minimal-mistakes-jekyll
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
