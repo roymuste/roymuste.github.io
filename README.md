@@ -1,2 +1,0 @@
-# roymuste.github.io
-Blog
