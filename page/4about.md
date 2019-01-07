@@ -10,7 +10,8 @@ type: page
 {:toc}
 
 ## About me
-github -- [Ycr](https://github.com/roymuste)
+- [roymuste (YCR) · GitHub](https://github.com/roymuste)
+- [Y Chen - Shanghai, China, Developer \| about.me](https://about.me/roymuste)
 
 ## About website
 create from [gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)
