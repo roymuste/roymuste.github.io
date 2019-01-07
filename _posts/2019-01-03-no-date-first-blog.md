@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "First Blog"
-date:   2019-01-03 20:02:07 +0800
+title:  "Test Blog"
+date:   2019-01-01 20:02:07 +0800
 categories: daily
 ---
 
 # Tips
 - Don't change blog file name
+
+![](/assets/2019-01-03-first-blog-bae28539.png)
 
 # TODO
 - apply theme...
