@@ -39,7 +39,22 @@
 
     </script>
 {% endif %}
-
+<!-- tx -->
+{% if site.tx_analytics_id %}
+<script>
+// 百度统计代码
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "http://tajs.qq.com/stats?sId={{site.tx_analytics_id}} charset=\"UTF-8\"";
+  hm.type = "text/javascript"
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- <script type="text/javascript" src="http://tajs.qq.com/stats?sId={{site.tx_analytics_id}}" charset="UTF-8"></script> -->
+{% endif %}
+<!-- end -->
 {% if page.mathjax %}
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
