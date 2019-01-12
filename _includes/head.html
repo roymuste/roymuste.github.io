@@ -38,10 +38,9 @@
       ga('send', 'pageview');
     </script>
 {% endif %}
-<!-- tx -->
+<!-- tencent -->
 {% if site.tx_analytics_id %}
 <script>
-// 腾讯统计代码
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -54,6 +53,20 @@ var _hmt = _hmt || [];
 </script>
 {% endif %}
 <!-- end -->
+<!-- growio -->
+{% if site.growio_analytics_id %}
+<script type='text/javascript'>
+  !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),
+  tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?
+  'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.growingio.com/2.1/gio.js","gio");
+  gio('init','971fb042443d1d77', {});
+  //custom page code begin here
+  //custom page code end here
+  gio('send');
+</script>
+{% endif %}
+<!-- end -->
+
 {% if page.mathjax %}
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({

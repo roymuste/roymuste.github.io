@@ -7,7 +7,7 @@
 
 # Site settings
 title: YCR
-brief-intro: Dev Notes
+brief-intro: Welcome, enjoy writing and reading
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://roymuste.github.io" # the base hostname & protocol for your site
 
@@ -38,6 +38,7 @@ disqus_shortname: roymuste
 # baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
 # google_analytics_id: UA-72449510-4 # google 分析追踪id
 tx_analytics_id: 66156286
+growio_analytics_id: 971fb042443d1d77
 
 # Build settings
 markdown: kramdown
