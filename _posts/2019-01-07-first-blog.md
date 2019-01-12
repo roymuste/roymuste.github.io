@@ -34,9 +34,13 @@ UI设计一流, 只是看到 Local development using Docker.....觉得有点不�
 ### 统计信息
 模板支持的 statistic analysis 有 baidu和 google
 
-鉴于之前已经使用TX, 那就一致性好一点:
-- [腾讯分析](https://v2.ta.qq.com)
+~~鉴于之前已经使用TX, 那就一致性好一点:~~
+- ~~[腾讯分析](https://v2.ta.qq.com)~~
 
+tencent的分析做的太随便...试试这个..
+- [GrowingIO](https://www.growingio.com)
+
+===
 ## Tips
 - Don't change blog file name
 
